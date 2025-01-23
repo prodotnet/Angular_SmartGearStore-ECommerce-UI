@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card-img img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.price {
+    font-size: 1.2rem;
+    color: #28a745;
+}
+#filterbar {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-hide {
+    background: #28a745;
+    color: #fff;
+}
+.btn-hide:hover {
+    background: #218838;
+}
+.product-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.colors label {
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.colors label input {
+    display: none;
+}
+.colors label.active {
+    border: 2px solid #000;
+}
+.tick input {
+    margin-right: 10px;
+}

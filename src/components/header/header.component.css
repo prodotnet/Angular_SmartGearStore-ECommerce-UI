@@ -1,0 +1,8 @@
+.navbar-nav {
+    text-align: center;
+  }
+  
+  .navbar-collapse {
+    flex-grow: unset; /* Prevents the menu from stretching unnecessarily */
+  }
+  
